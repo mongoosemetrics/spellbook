@@ -13,7 +13,7 @@ rm -rf mm_Library_Documentation
 mkdir mm_Library_Documentation
 
 # Run PHPDocumentor on the mm_Library/application directory
-phpdoc -o HTML:frames:earthli -d mm_Library/application -t mm_Library_Documentation
+phpdoc -o HTML:frames:earthli -d mm_Library/application -t mm_Library_Documentation >> /var/log/spellbook
 
 # Hop into the generated documentations media directory
 cd mm_Library_Documentation/media
