@@ -27,8 +27,11 @@ cd images
 # Correct the .pn files and make them into .png files
 spellbook rename-file-extensions pn png
 
-# Copy the documentation files over to the vm share directory
-rm -rf /media/sf_VM-Share && cp -r ~/Workspace/mm_Library_Documentation /media/sf_VM-Share
+# Get rid of the existing documentation from the shared documentation area
+rm -rf /media/sf_VM-Share/mm_Library_Documentation
+
+# Copy the documentation over to the virtual box shared folder
+cp -r ~/Workspace/mm_Library_Documentation /media/sf_VM-Share
 
 # Hop back to the directory we were in when we started this script
 cd $current_directory
