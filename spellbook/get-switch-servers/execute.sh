@@ -1,7 +1,10 @@
 #!/bin/bash
 
 # Echo the list of switch server names
-echo "switch8.mongoosemetrics.com \
+echo "switch2.mongoosemetrics.com \
+    switch3.mongoosemetrics.com \
+    switch4.mongoosemetrics.com \
+    switch8.mongoosemetrics.com \
     switch9.mongoosemetrics.com \
     switch10.mongoosemetrics.com \
     switch11.mongoosemetrics.com \
