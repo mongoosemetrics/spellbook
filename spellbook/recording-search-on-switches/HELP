@@ -1,1 +1,1 @@
-Searches for the passed recording filename on each of the switches.
+Executes 'df -h' on each of the switch boxes.
