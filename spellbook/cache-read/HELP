@@ -1,0 +1,2 @@
+Attempts to read the first line of cached data from the passed filename. If
+the file can't be found, we return an empty string.
