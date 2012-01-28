@@ -16,5 +16,11 @@ install:
 	@# Copy over the bash completion script
 	@cp bash_completion/spellbook /etc/bash_completion.d/spellbook
 
+sync:
+	@# Create the user spellbook directory
+	@mkdir -p ~/.spellbook
+	@# Copy all of the spells over
+	@cp -r spellbook/* ~/.spellbook
+
 clean:
 	@# Clean up everything
