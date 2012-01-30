@@ -16,7 +16,7 @@ switch_servers=`spellbook get-switch-servers`
 # Loop over each of the switches
 for server in $switch_servers; do
     # Log on and remove the audio file from the current switch
-    ssh root@$server 'rm -i /var/lib/asterisk/sounds/'$audio_file
+    ssh root@$server 'rm -f /var/lib/asterisk/sounds/'$audio_file
 done
 
 # Grab the list of the legacy www servers
@@ -25,5 +25,5 @@ www_servers=`spellbook get-legacy-www-servers`
 # Loop over each of the web servers
 for server in $www_servers; do
     # Log on and remove the audio file from the www server
-    ssh root@$server 'rm -i /var/www/html/www.mongoosemetrics.com/sounds/'$audio_file
+    ssh root@$server 'rm -f /var/www/html/www.mongoosemetrics.com/sounds/'$audio_file
 done
