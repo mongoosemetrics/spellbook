@@ -7,6 +7,9 @@ A collection of utilities.
 If you are running on a debian-like environment:
 
 ```bash
-# Install everything
+# Install spellbook
 sudo make install
+
+# Copy the spells
+make sync
 ```
