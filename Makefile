@@ -10,11 +10,11 @@ install:
 		exit 1; \
 	fi
 	@# Copy over the executable
-	@cp spellbook.sh /usr/bin/spellbook
+	@cp --remove-destination spellbook.sh /usr/bin/spellbook
 	@# Be sure the script is exectuable
 	@chmod 777 /usr/bin/spellbook
 	@# Copy over the bash completion script
-	@cp bash_completion/spellbook /etc/bash_completion.d/spellbook
+	@cp --remove-destination bash_completion/spellbook /etc/bash_completion.d/spellbook
 
 sync:
 	@# Create the user spellbook directory
