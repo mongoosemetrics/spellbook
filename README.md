@@ -1,6 +1,6 @@
 # Spellbook #
 
-A collection of useful utilities. Well, useful to me, at least.
+A collection of utilities.
 
 ## Installing ##
 
