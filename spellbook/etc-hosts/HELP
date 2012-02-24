@@ -1,0 +1,7 @@
+spellbook etc-hosts [add|remove] [hostname] [ip]
+
+The 'ip' option defaults to 127.0.0.1 if not provided.
+
+Examples:
+    spellbook etc-hosts add testing.com
+    spellbook etc-hosts remove testing.com 192.168.1.1
