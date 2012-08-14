@@ -1,0 +1,6 @@
+Starts a VIM session for editing a single string value in Redis.
+
+Usage:
+    spellbook redis-vim [KEY]
+
+Taken from http://github.com/kmitchner/ken_scripts.
