@@ -11,14 +11,7 @@ case "$1" in
     ;;
 
     *)
-        echo "Usage: "
-        echo "    spellbook etc-hosts [add|remove] [hostname] [ip]"
-        echo 
-        echo "The 'ip' option defaults to 127.0.0.1 if not provided."
-        echo
-        echo "Examples:"
-        echo "    spellbook etc-hosts add testing.com"
-        echo "    spellbook etc-hosts remove testing.com 192.168.1.1"
+        spellbook help etc-hosts
         exit 1
     ;;
 esac
