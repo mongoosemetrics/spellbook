@@ -1,0 +1,5 @@
+Usage:
+
+  spellbook get-atlas-servers [environment]
+
+Returns a newline-separated list of the known atlas servers for the passed environment name. Valid environments are "live".

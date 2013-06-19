@@ -1,0 +1,5 @@
+Usage:
+
+  spellbook serverdb-add [category] [environment] [hostname]
+
+Adds a hostname to the local server knowledge database.

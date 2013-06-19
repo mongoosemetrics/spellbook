@@ -1,1 +1,5 @@
+Usage:
+
+  spellbook cache-write [key] [value]
+
 Writes a single named value to the cache.

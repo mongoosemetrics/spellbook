@@ -1,0 +1,5 @@
+Usage:
+
+  spellbook cache-destroy [key]
+
+Deletes the matching cache entry.
