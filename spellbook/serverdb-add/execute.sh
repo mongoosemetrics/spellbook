@@ -9,4 +9,4 @@ hostname=$3
 if [ ! -f ~/.serverdb ]; then
   spellbook serverdb-reset
 fi
-sqlite3 ~/.serverdb "insert into servers values($category, $environment, $hostname)"
+sqlite3 ~/.serverdb "insert into servers values('$category', '$environment', '$hostname')"
