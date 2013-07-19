@@ -1,5 +1,5 @@
 Usage:
 
-  spellbook serverdb-list [category] [environment]
+  spellbook serverdb-multitailgrep [category] [environment] [filename] [pattern]
 
-Lists all of the hostnames known for the provided category and environment.
+Simultaneously tails the provided filename on all of the hosts known in the serverdb for the provided category and environment. Continues tailing until you type 'q' and press enter.
