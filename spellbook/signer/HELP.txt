@@ -1,0 +1,3 @@
+Usage:
+
+    spellbook signer [hash] [json]
