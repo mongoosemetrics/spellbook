@@ -1,0 +1,5 @@
+Usage:
+
+  spellbook serverdb-ssh [category] [environment]
+
+Log into the matching server using SSH.
